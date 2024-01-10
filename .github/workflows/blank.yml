@@ -29,6 +29,8 @@ jobs:
       - name: Run a multi-line script
         run: |
           curl -O https://github.com/janisozaur/fmodextract/releases/download/V2.2.20/fmod.dmg
+          ls -la
+          sha1sum fmod.dmg
           hdiutil attach fmod.dmg
           ls /Volumes
           ls -lR /Volumes
