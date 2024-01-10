@@ -28,7 +28,7 @@ jobs:
       # Runs a set of commands using the runners shell
       - name: Run a multi-line script
         run: |
-        curl -O https://github.com/janisozaur/fmodextract/releases/download/V2.2.20/fmod.dmg
+          curl -O https://github.com/janisozaur/fmodextract/releases/download/V2.2.20/fmod.dmg
           hdiutil attach fmod.dmg
           ls /Volumes
           ls -lR /Volumes
